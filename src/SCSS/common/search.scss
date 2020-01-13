@@ -1,0 +1,54 @@
+@import '../base/_mixin.scss';
+
+.search-bar {
+  margin: 0 30rpx;
+
+  .input-box {
+    background: #f6f6f6;
+    padding: 12rpx;
+    border-radius: 16rpx;
+    width: 85%;
+
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.filter-content {
+  position: fixed;
+  left: 0;
+  top: 152rpx;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  z-index: 5;
+
+  .filter-btn-group {
+    background: #fff;
+
+    .dis-flex {
+      flex-wrap: wrap;
+
+      .filter-btn {
+        border: 1px solid $color-border;
+        color: $color-light;
+        padding: 8rpx 0;
+        margin: 10rpx;
+        border-radius: 10rpx;
+        font-size: 24rpx;
+
+        &.active {
+          border: 1px solid $color-primary;
+          color: $color-primary;
+        }
+      }
+
+      .col4 {
+        width: 22%;
+      }
+    }
+  }
+}

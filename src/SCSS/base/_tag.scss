@@ -1,0 +1,47 @@
+@import '_variables.scss';
+@import '_mixin.scss';
+$color-tag-border:$color-primary !default;
+
+.tag {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 8rpx;
+  color: #666;
+  line-height: 18px;
+  font-size: 22rpx;
+  font-weight: inherit;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-decoration: none;
+  cursor: pointer;
+
+  &.tag-default {
+    background: $color-btn-default;
+  }
+
+  &.tag-primary {
+    background: $color-primary;
+    color: #fff;
+  }
+
+  &.tag-danger {
+    background: $color-danger;
+    color: #fff;
+  }
+
+  &.tag-o-primary,
+  &.tag-o-danger,
+  &.tag-o-default {
+    color: $color-danger;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px;
+  }
+
+  &.tag-o-primary {
+    color: $color-primary;
+  }
+
+  &.tag-o-default {
+    color: $color-bg-default;
+  }
+}

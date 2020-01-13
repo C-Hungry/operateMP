@@ -1,0 +1,52 @@
+@import '_variables.scss';
+@import '_mixin.scss';
+
+@each $bg,
+$bg-color,
+$bg-text-color in(bg-default, $color-bg-default, $color-bg-default-text),
+(bg-primary, $color-bg-primary, $color-bg-primary-text),
+(bg-ok, $color-bg-ok, $color-bg-ok-text),
+(bg-info, $color-bg-info, $color-bg-info-text),
+(bg-warning, $color-bg-warning, $color-bg-warning-text),
+(bg-danger, $color-bg-danger, $color-bg-danger-text) {
+  .#{$bg} {
+    // border: 1px solid darken($bg-color, 8%);
+    background-color: $bg-color;
+    // color: $bg-text-color;
+  }
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-match {
+  background-color: #ff0;
+}
+
+.bg {
+  position: relative;
+  padding: 10px;
+  line-height: 20px;
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  border-radius: $border-radius;
+}
+
+$color-bg-warning-pure:#FFFEE7;
+
+.bg-muted {
+  background: $color-bg-muted;
+}
+
+.bg-muted-light {
+  background: $color-bg-muted;
+}
+
+.bg-warning-pure {
+  background: $color-bg-warning-pure;
+}
+
+.bg-primary-t {
+  background-image: linear-gradient(to right, #F93251, #FA5438);
+}

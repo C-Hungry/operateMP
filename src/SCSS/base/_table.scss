@@ -1,0 +1,48 @@
+@import '_variables.scss';
+$color-odd:#FDFDFD !default;
+$color-table-border-outer:#F6F6F6;
+$color-table-on:#FEF2E6 !default;
+$table-line-height:44px;
+$table-text-line-height:18px;
+
+.table,
+._table {
+  ._tr {
+    display: flex;
+
+    ._td,
+    ._th {
+      overflow: hidden;
+    }
+
+    >.item {
+      width: 100%;
+      flex: 1;
+    }
+  }
+}
+
+.table-bordered {
+  border: 1rpx solid $color-border;
+
+  ._tr {
+
+    ._td,
+    ._th {
+      border-top: 1rpx solid $color-border;
+
+      +._td,
+      +._th {
+        border-left: 1rpx solid $color-border;
+      }
+    }
+
+    &:first-child {
+
+      ._td,
+      ._th {
+        border-top: 0;
+      }
+    }
+  }
+}

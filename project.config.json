@@ -1,0 +1,225 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx4022b8e9eaed0637",
+	"projectname": "operateMP",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.1.0",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 22,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/loginMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/default/defaultMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/loginMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/regLogin/regLoginMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "缴费",
+					"pathName": "pages/login/payment/paymentMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "注册成功",
+					"pathName": "pages/reg/regSuccess/regSuccessMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的会员",
+					"pathName": "pages/workbench/myMember/myMemberMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/default/defaultMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "钱包",
+					"pathName": "pages/wallet/default/defaultMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "背景海报",
+					"pathName": "pages/workbench/yqMember/yqMemberMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "邀请会员介绍",
+					"pathName": "pages/workbench/yqIntroduce/yqIntroduceMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "邀请会员",
+					"pathName": "pages/reg/regEntry/regEntryMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员中心",
+					"pathName": "pages/mine/memberInfo/memberInfoMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收支明细",
+					"pathName": "pages/wallet/incomeList/incomeListMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品安装",
+					"pathName": "pages/workbench/productInstall/productInstallMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员详情",
+					"pathName": "pages/workbench/myMember/myMemberDetail/myMemberDetailMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "常见问题",
+					"pathName": "pages/mine/question/questionMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/wallet/withdrawRecord/withdrawRecordMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新手教程",
+					"pathName": "pages/workbench/tutorial/tutorialMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现说明",
+					"pathName": "pages/wallet/withdrawDesc/withdrawDescMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "线下开票",
+					"pathName": "pages/wallet/offliceBill/offliceBillMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 22,
+					"name": "注册入口",
+					"pathName": "pages/reg/regMain",
+					"query": "scene=aaa,bb",
+					"scene": 1012
+				},
+				{
+					"id": -1,
+					"name": "提现1",
+					"pathName": "pages/wallet/goWithdraw/goWithdrawMain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 24,
+					"name": "下载",
+					"pathName": "pages/downloadPage/downloadPageMain",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

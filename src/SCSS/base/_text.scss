@@ -1,0 +1,143 @@
+@import '_variables.scss';
+@import '_mixin.scss';
+
+//align
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+//color
+.text-default {
+  color: $color;
+}
+
+.text-light-muted,
+.text-muted-light {
+  color: #999;
+}
+
+.text-muted {
+  color: $color-muted;
+}
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-info {
+  color: $color-info;
+}
+
+.text-ok {
+  color: $color-ok;
+}
+
+.text-warning {
+  color: $color-warning;
+}
+
+.text-danger {
+  color: $color-danger;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-lighter {
+  color: $color-lighter;
+}
+
+.text-light {
+  color: $color-light;
+}
+
+//
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-wrap {
+  white-space: normal;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+//size
+.text-xx-small {
+  font-size: $size-text-xx-small;
+}
+
+.text-x-small {
+  font-size: $size-text-x-small;
+}
+
+.text-small {
+  font-size: $size-text-small;
+  line-height: 1.5;
+}
+
+.text-middle {
+  font-size: $size-text-middle;
+}
+
+.text-large {
+  font-size: $size-text-large;
+}
+
+.text-x-large {
+  font-size: $size-text-x-large;
+}
+
+.text-xx-large {
+  font-size: $size-text-xx-large;
+}
+
+.text-xxx-large {
+  font-size: $size-text-xxx-large;
+}
+
+//weight
+.text-normal {
+  font-weight: 400;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-del {
+  padding: 0 10px;
+  margin-top: -1px;
+  font-size: 20px;
+  color: #999;
+  text-decoration: none;
+  vertical-align: -2px;
+
+  &:hover {
+    // color: $color-warning;
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

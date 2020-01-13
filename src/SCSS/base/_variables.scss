@@ -1,0 +1,102 @@
+$border-radius:10rpx !default;
+$font-size:12px !default;
+$line-height: (20/14) !default;
+$font-family:'Microsoft Yahei',
+'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif !default;
+$bgPath:'/dist/';
+$bgGroup:'#{$bgPath}/bg_group.png';
+$color:#333 !default;
+$color-body-bg:#f0f0f0 !default;
+$color-muted:#d6d3d6 !default;
+$color-default:#333 !default;
+$color-primary:#3366FF !default;
+$color-info:#52b67a !default;
+$color-ok:#41ac17 !default;
+$color-warning:#fb8673 !default;
+$color-danger:#fa5438 !default;
+$color-btn-default:#F8F8F8 !default;
+$color-btn-hover:#fcfcfc !default;
+$color-border:#D6DCE3 !default;
+$color-light:#666;
+$color-lighter:#999;
+//Table area color
+$color-table-thead:#F3F4F6 !default;
+$color-table-thead-th:#333 !default;
+$color-table-tr-hover:#FEF6EB !default;
+$color-table-border:#E6EAED !default;
+$color-table-anchor:#0990ca !default;
+//Anchor area color
+$color-anchor:#333 !default;
+$color-anchor-highlight:#0170B7 !default;
+$color-anchor-visited:#609 !default;
+$color-anchor-hover:$color-anchor-highlight !default;
+$color-anchor-active:$color-danger !default;
+//Text with background area color
+$color-bg-default:#eee !default;
+$color-bg-default-text:#555 !default;
+$color-bg-muted:#F3F4F6 !default;
+$color-bg-primary:#3366FF !default;
+$color-bg-primary-text:#a94442 !default;
+$color-bg-ok:#dff0d8 !default;
+$color-bg-ok-text:#3c763d !default;
+$color-bg-info:#effffe !default;
+$color-bg-info-text:#1fb5ac !default;
+$color-bg-warning:#FFF9EA !default;
+$color-bg-warning-text:#8a6d3b !default;
+$color-bg-danger:#FFE6E2 !default;
+$color-bg-danger-text:#E02F0D !default;
+$color-radio-highlight:$color-primary; //单复选高亮
+$color-switcher-highlight:#fdc400; //开关高亮
+$color-input-focus-border:#F1B47E; //输入框focus
+$color-bg-gray:#F6F6F6 !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(("primary": $color-primary, "ok": $color-ok, "info": $color-info, "warning": $color-warning, "danger": $color-danger), $theme-colors);
+//Text size
+$size-text-xx-small:22rpx;
+$size-text-x-small:24rpx;
+$size-text-small:26rpx;
+$size-text-middle:28rpx;
+$size-text-large:30rpx;
+$size-text-x-large:32rpx;
+$size-text-xx-large:34rpx;
+$size-text-xxx-large:36rpx;
+//Height
+$height-input:30px;
+$height-btn:98rpx;
+$height-table-thead:34px;
+$height-table-tbody:44px;
+//progress
+$progress-bg:#e8e8e8;
+//Mobile End
+//Mobile
+$font-family-mobile:14px "PingFang SC",
+"Helvetica Neue",
+"Heiti SC",
+Helvetica,
+Arial,
+sans-serif !default;
+$line-height-mobile:1.6 !default;
+$size-text-btn-mini-mobile:14px !default;
+$size-text-btn-block-mobile:18px !default;
+$size-text-small-mobile:13px !default;
+$size-text-large-mobile:16px !default;
+$size-text-x-large-mobile:18px !default;
+$size-text-xx-large-mobile:34px !default;
+$size-text-title-mobile:17px !default;
+$color-muted-mobile:#999 !default;
+//z-index
+$z-index-header:100 !default;
+$z-index-share:255 !default;
+$z-index-popup:1000 !default;
+//icon color
+$icon-wancheng:#56a24a;
+$icon-shanchu:#ff7457;
+$direction:(t:top, r:right, d:down, l:left) !default;
+$directions:(top:top, right:right, down:down, left:left) !default;
+$size-split:10px !default; //通用分隔高度
+$size-space:10px !default; //元素左右通用间隔或外边距
+$bgDomain:'https://hmm.jdhui.com/';
+//$bgDomain:'http://tsthmmapp.jdhui.com.cn';

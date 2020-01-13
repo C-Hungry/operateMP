@@ -1,0 +1,121 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/reg/regMain",
+    "pages/webview/webviewMain",
+    "pages/login/loginMain",
+    "pages/data/statisticsMain",
+    "pages/downloadPage/downloadPageMain",
+    "pages/index/wallet/walletMain",
+    "pages/index/moving/movingMain",
+    "pages/login/regLogin/regLoginMain",
+    "pages/login/payment/paymentMain",
+    "pages/login/auth/authMain",
+    "pages/login/submitData/submitDataMain",
+    "pages/reg/regEntry/regEntryMain",
+    "pages/reg/JdhRegEntry/JdhRegEntryMain",
+    "pages/reg/regParterEntry/regParterEntryMain",
+    "pages/reg/regSuccess/regSuccessMain",
+    "pages/reg/regError/regErrorMain",
+    "pages/reg/getSmsCode/getSmsCodeMain",
+    "pages/reg/regCodeInvalid/regCodeInvalidMain",
+    "pages/login/auditProgress/auditProgressMain",
+    "pages/mine/default/defaultMain",
+    "pages/mine/memberInfo/memberInfoMain",
+    "pages/mine/question/questionMain",
+    "pages/mine/aboutUs/aboutUsMain",
+    "pages/index/build/buildMain"
+  ],
+  "subpackages": [{
+      "root": "pages/wallet",
+      "pages": [
+        "coupon/couponMain",
+        "rewardDetail/rewardDetailMain",
+        "incomeList/incomeListMain",
+        "incomeDetail/incomeDetailMain",
+        "withdrawDesc/withdrawDescMain",
+        "offliceBill/offliceBillMain",
+        "goWithdraw/goWithdrawMain",
+        "yongjinView/yongjinViewMain",
+        "withdrawRecord/withdrawRecordMain",
+        "openAccountDetail/openAccountDetailMain",
+        "orderCommission/orderCommissionMain",
+        "withdrawRecord/wrDetail/wrDetailMain"
+      ]
+    },
+    {
+      "root": "pages/workbench",
+      "pages": [
+        "yqIntroduce/yqIntroduceMain",
+        "opIntroduce/opIntroduceMain",
+        "myMember/myMemberMain",
+        "followUp/followUpMain",
+        "tutorial/tutorialMain",
+        "myOperation/myOperationMain",
+        "productInstall/productInstallMain",
+        "myMember/myMemberDetail/myMemberDetailMain",
+        "myOperation/myOperationDetail/myOperationDetailMain",
+        "orderDetail/orderDetailMain"
+      ]
+    },
+    {
+      "root": "pages/yqMember",
+      "pages": [
+        "yqMemberMain"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/main": {
+      "network": "all",
+      "packages": ["pages/workbench"]
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "会员店管理助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "backgroundColor": "#fff",
+    "selectedColor": "#3366FF",
+    "borderStyle": "white",
+    "list": [{
+        "text": "工作台",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/shouye.png",
+        "selectedIconPath": "static/tabs/shouye1.png"
+      },
+      {
+        "text": "统计",
+        "pagePath": "pages/data/statisticsMain",
+        "iconPath": "static/tabs/tongji.png",
+        "selectedIconPath": "static/tabs/tongji1.png"
+      },
+      {
+        "text": "动态",
+        "pagePath": "pages/index/moving/movingMain",
+        "iconPath": "static/tabs/dongtai.png",
+        "selectedIconPath": "static/tabs/dongtai1.png"
+      },
+      {
+        "text": "钱包",
+        "pagePath": "pages/index/wallet/walletMain",
+        "iconPath": "static/tabs/yongjin.png",
+        "selectedIconPath": "static/tabs/yongjin1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/default/defaultMain",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx8f4ec1c40a1ec3dd"
+  ]
+}
